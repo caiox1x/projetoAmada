@@ -1,0 +1,47 @@
+
+body {
+    position: relative; /* Mantenha o posicionamento relativo */
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+h1 { 
+    text-align: center;
+}
+
+#sim, #nao {
+    position: relative; /* Mantenha o posicionamento absoluto */
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100px; /* Defina a largura dos botões */
+    margin: auto; /* Centraliza horizontalmente dentro do container */
+}
+
+#sim {
+    right: 15px;
+    
+}
+
+
+#nao {
+    position: relative;
+    
+}
+
+#mensagem {
+    position: fixed; /* Posicionamento fixo na tela */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza a mensagem */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none; /* Oculta inicialmente */
+    height: 150px;
+
+}
+
+#mensagem p {
+    line-height: 1.5;
+}
