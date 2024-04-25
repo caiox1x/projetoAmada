@@ -4,7 +4,7 @@ const btnNao = document.getElementById('nao');
 const mensagemElement = document.getElementById('mensagem');
 
 btnSim.addEventListener('click', function() {
-    mensagemElement.textContent = mensagem ; // Exibe a mensagem
+    window.location.href = 'pagina2/carta.html'
     mensagemElement.style.display = 'block'; // Mostra a div da mensagem
 });
 
